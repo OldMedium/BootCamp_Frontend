@@ -1,0 +1,18 @@
+.page-container {
+  width: 100%;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.grid {
+  width: auto;
+  padding: 0.8rem;
+  display: grid;
+  justify-content: flex-start;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  grid-gap: 0.25rem;
+}
